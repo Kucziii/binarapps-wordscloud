@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.router-link {
+  outline: none;
+  text-decoration: none;
+}
+
+.router-link:hover {
+  outline: none;
+  text-decoration: none;
+}
+
+.page-bg {
+  background-color: #4919aa;
+}
