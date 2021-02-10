@@ -5,7 +5,6 @@ import { Box } from "rebass";
 import { createBrowserHistory } from "history";
 import routes from "./_app/routing/routes";
 import HeaderBar from "./components/HeaderBar/HeaderBar";
-import SideMenu from "./components/SideMenu/SideMenu";
 import Home from "./components/Home/Home";
 
 const history = createBrowserHistory();
