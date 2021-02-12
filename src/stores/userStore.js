@@ -3,12 +3,19 @@ import { observable, action } from "mobx";
 export class userStore {
   @observable userName = null;
 
-  @observable assignUser = (name) => {
+  @action assignUser = (name) => {
     this.userName = name;
+    localStorage.setItem("user", name);
   };
 
-  @action clearStore = async () => {
+  @action checkUserStatus = () => {
+    this.userName = localStorage.getItem("user");
+    return this.userName;
+  };
+
+  @action logout = () => {
     this.userName = null;
+    localStorage.setItem("user", "");
   };
 }
 

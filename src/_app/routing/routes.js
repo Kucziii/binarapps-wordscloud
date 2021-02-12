@@ -1,3 +1,5 @@
 export default {
-  home: "/"
+  home: "/",
+  game: "/game",
+  result: "/result"
 };
